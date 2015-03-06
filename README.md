@@ -6,6 +6,7 @@ Notes for Setting Up a J2EE Project
 
 ### Testing
 * JUnit
+* DBUnit
 
 ### Web and Application
 * Minimum Web
