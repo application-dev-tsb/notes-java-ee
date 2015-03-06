@@ -10,6 +10,6 @@ Notes for Setting Up a J2EE Project
 * JSON Endpoint
 
 ### Database
-* Minimum JDBC
+* [Minimum JDBC](/Database/MinimumJDBC.md)
 * Liquibase
 * Hibernate
