@@ -15,7 +15,7 @@ add the driver library to your project:
 
 load the driver BEFORE connecting to the server
 ```java
-Class.forName("com.mysql.jdbc.Driver"); //to load the driver
+Class.forName("com.mysql.jdbc.Driver"); //if you forget this, expect a Driver Not Found Exception
 ```
 
 ## Database Connection
@@ -27,5 +27,5 @@ Connection conn = = DriverManager.getConnection(url, user, password);
 ## Performing Statements
 ```java
 Statement stmt = conn.createStatement();
-ResultSet	rs = stmt.executeQuery("SELECT personid,firstname,lastname FROM persons");
+ResultSet rs = stmt.executeQuery("SELECT personid,firstname,lastname FROM persons");
 ```
