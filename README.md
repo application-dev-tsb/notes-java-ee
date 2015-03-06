@@ -15,6 +15,7 @@ Notes for Setting Up a J2EE Project
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
+* [Basic SQL](/Database/BasicSQL.md)
 * [Liquibase](/Database/Liquibase.md)
 * Hibernate
 
