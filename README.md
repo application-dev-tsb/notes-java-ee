@@ -21,3 +21,4 @@ Notes for Setting Up a J2EE Project
 ### Server Setup
 * Environment Variables
 * Tomcat Plugin
+* Maven Profiles
