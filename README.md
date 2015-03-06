@@ -5,7 +5,7 @@ Notes for Setting Up a J2EE Project
 ## Contents
 
 ### Testing
-* JUnit
+* [JUnit](/Testing/JUnit.md)
 * DBUnit
 
 ### Web and Application
