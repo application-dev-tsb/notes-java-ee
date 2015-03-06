@@ -5,11 +5,11 @@ Notes for Setting Up a J2EE Project
 ## Contents
 
 ### Web and Application
-* Minimum Web Setup
+* Minimum Web
 * Spring MVC
 * JSON Endpoint
 
 ### Database
-* Minimum RDBMS
+* Minimum JDBC
 * Liquibase
 * Hibernate
