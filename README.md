@@ -4,6 +4,9 @@ Notes for Setting Up a J2EE Project
 
 ## Contents
 
+### Testing
+* JUnit
+
 ### Web and Application
 * Minimum Web
 * Spring MVC
