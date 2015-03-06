@@ -17,3 +17,6 @@ Notes for Setting Up a J2EE Project
 * [Minimum JDBC](/Database/MinimumJDBC.md)
 * Liquibase
 * Hibernate
+
+### Server Setup
+* Environment Variables
