@@ -9,7 +9,7 @@ Notes for Setting Up a J2EE Project
 * DBUnit
 
 ### Web and Application
-* Minimum Web
+* [Minimum Web](WebAndApplication/MinimumWeb.md)
 * Spring MVC
 * JSON Endpoint
 
