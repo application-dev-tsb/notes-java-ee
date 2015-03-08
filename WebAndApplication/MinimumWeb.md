@@ -1,6 +1,6 @@
 # Web Application
 
-## Servlet
+## Setup
 ```xml
 <dependency>
 	<groupId>javax.servlet</groupId>
@@ -10,7 +10,7 @@
 </dependency>
 ```
 
-## JSP (Optional, but you will most likely need this)
+JSTL (Optional, but you will most likely need this)
 ```xml
 <dependency>
 	<groupId>jstl</groupId>
@@ -19,7 +19,7 @@
 </dependency>
 ```
 
-## WEB-INF/web.xml
+WEB-INF/web.xml
 ```xml
 <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" >
 <web-app>
@@ -35,4 +35,15 @@
     <url-pattern>/DatabaseDemoServlet</url-pattern>
   </servlet-mapping>
 </web-app>
+```
+
+## Code
+
+Using Java Code Inside a JSP
+```html
+<html>
+<body>
+<h2><%= request.getContextPath() %> Hello World!</h2>
+</body>
+</html>
 ```
