@@ -20,6 +20,6 @@ Notes for Setting Up a J2EE Project
 * Hibernate
 
 ### Server Setup
-* Environment Variables
+* [Environment Variables](/ServerSetup/EnvironmentVariables.md)
 * Tomcat Plugin
 * Maven Profiles
