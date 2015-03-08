@@ -43,7 +43,8 @@ Using Java Code Inside a JSP
 ```html
 <html>
 <body>
-<h2><%= request.getContextPath() %> Hello World!</h2>
+<% //run any java code here %>
+<h2><%= request.getContextPath() //output %> Hello World!</h2>
 </body>
 </html>
 ```
