@@ -10,7 +10,7 @@
 </dependency>
 ```
 
-## JSP
+## JSP (Optional, but you will most likely need this)
 ```xml
 <dependency>
 	<groupId>jstl</groupId>
