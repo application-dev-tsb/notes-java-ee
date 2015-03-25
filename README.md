@@ -20,6 +20,7 @@ Notes for Setting Up a J2EE Project
 * Hibernate
 
 ### Server Setup
+* [Tomcate 8 Ubuntu Installation](http://wolfpaulus.com/jounal/mac/tomcat8/)
 * [Environment Variables](/ServerSetup/EnvironmentVariables.md)
 * Tomcat Plugin
 * Maven Profiles
