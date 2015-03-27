@@ -56,22 +56,32 @@ public class HomeController {
 
 sample test:
 ```java
-	@Test
-	public void homeTest() throws Exception {
-		List<Item> expectedItems = createItems(15);
-		ItemRepository mockItemRepository = mock(ItemRepository.class);
-		when(mockItemRepository.findNewItems()).thenReturn(expectedItems);
+//imports
+import static org.hamcrest.Matchers.hasItems;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
+import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
+
+
+@Test
+public void homeTest() throws Exception {
+	List<Item> expectedItems = createItems(15);
+	ItemRepository mockItemRepository = mock(ItemRepository.class);
+	when(mockItemRepository.findNewItems()).thenReturn(expectedItems);
 		
-		HomeController controller = new HomeController();
-		controller.setItemRepository(mockItemRepository);
+	HomeController controller = new HomeController();
+	controller.setItemRepository(mockItemRepository);
 		
-		MockMvc mockMvc = standaloneSetup(controller)
-		        .setSingleView(new InternalResourceView("/WEB-INF/views/home.jsp"))
-		        .build();
+	MockMvc mockMvc = standaloneSetup(controller)
+		.setSingleView(new InternalResourceView("/WEB-INF/views/home.jsp"))
+		.build();
 		
-		mockMvc.perform(get("/"))
+	mockMvc.perform(get("/"))
 	       .andExpect(view().name("home"))
 	       .andExpect(model().attributeExists("newItems"))
 	       .andExpect(model().attribute("newItems", hasItems(expectedItems.toArray())));
-	}
+}
 ```
