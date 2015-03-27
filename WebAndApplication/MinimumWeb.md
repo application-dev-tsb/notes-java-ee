@@ -21,19 +21,14 @@ JSTL (Optional, but you will most likely need this)
 
 WEB-INF/web.xml
 ```xml
-<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" >
-<web-app>
-	<display-name>Web Demo</display-name>
-	
-	<servlet>
-    <servlet-name>DatabaseDemoServlet</servlet-name>
-  <servlet-class>com.hoac.webdemo.DatabaseDemoServlet</servlet-class>
-    </servlet>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+      version="3.0">
 
-  <servlet-mapping>
-    <servlet-name>DatabaseDemoServlet</servlet-name>
-    <url-pattern>/DatabaseDemoServlet</url-pattern>
-  </servlet-mapping>
+    <display-name>App Name</display-name>
+    
 </web-app>
 ```
 
