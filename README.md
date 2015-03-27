@@ -6,6 +6,7 @@ Notes for Setting Up a J2EE Project
 
 ### Testing
 * [JUnit](/Testing/JUnit.md)
+* [Spring Controller](/Testing/SpringController.md)
 * DBUnit
 
 ### Web and Application
