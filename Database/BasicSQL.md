@@ -26,6 +26,10 @@ CHANGE COLUMN book_id book_id INT AUTO_INCREMENT PRIMARY KEY
 
 ```
 
+## Describe Table
+```sql
+DESCRIBE books;
+```
 
 ## Insert Data
 
