@@ -1,5 +1,10 @@
 # Basic SQL
 
+## Connecting to Database
+```ssh
+mysql --host=127.0.0.1 --user=myname --password=mypass mydb
+```
+
 ## Create Users
 
 ## Schema/Database
