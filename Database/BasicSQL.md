@@ -6,8 +6,14 @@
 ```sql
 CREATE DATABASE my_db;
 
-//to switch default schema
+--show all databases
+SHOW DATABASES;
+
+--to switch default schema
 USE my_db;
+
+--show all tables in the selected database
+SHOW TABLES;
 ```
 
 ## Create Table
@@ -21,13 +27,12 @@ CREATE TABLE test_table (
 ## Update Table
 ```sql
 ALTER TABLE books
-//to update existing columns
+--to update existing columns
 CHANGE COLUMN book_id book_id INT AUTO_INCREMENT PRIMARY KEY,
 
-//to add new column
+--to add new column
 ADD COLUMN summary VARCHAR(255) NOT NULL
 ;
-
 ```
 
 ## Describe Table
