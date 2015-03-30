@@ -6,6 +6,9 @@
 ```sql
 CREATE DATABASE my_db;
 
+--delete database
+DROP DATABASE my_db;
+
 --show all databases
 SHOW DATABASES;
 
@@ -23,6 +26,9 @@ CREATE TABLE test_table (
     title VARCHAR(255),
     author VARCHAR(255)
 );
+
+--delete
+DROP TABLE test_table;
 ```
 ## Update Table
 ```sql
