@@ -21,7 +21,11 @@ CREATE TABLE test_table (
 ## Update Table
 ```sql
 ALTER TABLE books
-CHANGE COLUMN book_id book_id INT AUTO_INCREMENT PRIMARY KEY
+//to update existing columns
+CHANGE COLUMN book_id book_id INT AUTO_INCREMENT PRIMARY KEY,
+
+//to add new column
+ADD COLUMN summary VARCHAR(255) NOT NULL
 ;
 
 ```
