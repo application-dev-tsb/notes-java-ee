@@ -2,9 +2,12 @@
 
 ## Create Users
 
-## Create Schema
+## Schema/Database
 ```sql
-CREATE DATABASE myDB;
+CREATE DATABASE my_db;
+
+//to switch default schema
+USE my_db;
 ```
 
 ## Create Table
