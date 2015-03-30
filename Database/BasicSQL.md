@@ -3,6 +3,9 @@
 ## Create Users
 
 ## Create Schema
+```sql
+CREATE DATABASE myDB;
+```
 
 ## Create Table
 ```sql
