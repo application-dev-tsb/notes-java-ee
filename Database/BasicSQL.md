@@ -61,6 +61,8 @@ DESCRIBE books;
 ```sql
 INSERT INTO authors (author_last, author_first, country) VALUES('Greene','Grahan','United Kingdom');
 INSERT INTO authors (author_last, author_first, country) VALUES('King','Elias','Swapingdo');
+
+INSERT INTO books (title, author_id, isbn, genre, pub_year) VALUE('The End of the Affair', 1, '099191918', 'novel', '1951');
 ```
 
 ## Query Data
