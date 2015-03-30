@@ -12,12 +12,20 @@ USE my_db;
 
 ## Create Table
 ```sql
-CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
-    (create_definition,...)
-    [table_options]
-    [partition_options]
+CREATE TABLE test_table (
+    book_id INT,
+    title VARCHAR(255),
+    author VARCHAR(255)
+);
 ```
-## Modify Table
+## Update Table
+```sql
+ALTER TABLE books
+CHANGE COLUMN book_id book_id INT AUTO_INCREMENT PRIMARY KEY
+;
+
+```
+
 
 ## Insert Data
 
