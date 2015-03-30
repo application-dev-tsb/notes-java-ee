@@ -1,14 +1,5 @@
 # Liquibase
 
-## Add Dependencies
-```xml
-<groupId>org.liquibase</groupId>
-<artifactId>liquibase-parent</artifactId>
-<version>3.4.0-SNAPSHOT</version>
-```
-
-### Configure Auto Update
-
 ## Run During Deployment: Spring
 [Documentation](http://www.liquibase.org/documentation/spring.html)
 1.) Add Dependencies
