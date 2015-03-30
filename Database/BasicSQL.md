@@ -58,6 +58,10 @@ DESCRIBE books;
 ```
 
 ## Insert Data
+```sql
+INSERT INTO authors (author_last, author_first, country) VALUES('Greene','Grahan','United Kingdom');
+INSERT INTO authors (author_last, author_first, country) VALUES('King','Elias','Swapingdo');
+```
 
 ## Query Data
 
