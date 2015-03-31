@@ -6,6 +6,14 @@ mysql --host=127.0.0.1 --user=myname --password=mypass mydb
 ```
 
 ## Create Users
+```sql
+--two users are created (@'xx' is optional and will default to @'%')
+CREATE USER 'username'@'domain.com' IDENTIFIED BY 'password'
+CREATE USER 'username'@'%' IDENTIFIED BY 'password'
+
+--to delete a user
+DROP USER 'username'@'%'
+```
 
 ## Schema/Database
 ```sql
