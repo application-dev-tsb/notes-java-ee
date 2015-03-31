@@ -5,14 +5,18 @@
 mysql --host=127.0.0.1 --user=myname --password=mypass mydb
 ```
 
-## Create Users
+## Users
 ```sql
 --two users are created (@'xx' is optional and will default to @'%')
-CREATE USER 'username'@'domain.com' IDENTIFIED BY 'password'
-CREATE USER 'username'@'%' IDENTIFIED BY 'password'
+CREATE USER 'username'@'domain.com' IDENTIFIED BY 'password';
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+
+--revoke all privileges 
+--do this before deleting the user
+REVOKE ALL ON *.* FROM 'user'@'localhost';
 
 --to delete a user
-DROP USER 'username'@'%'
+DROP USER 'username'@'%';
 ```
 
 ## Schema/Database
