@@ -22,7 +22,7 @@
 
 --changeset hack-of-all-codes:1
 CREATE TABLE tpc_items (
-	id int AUTO_INCREMENT,
+	id INT AUTO_INCREMENT,
 	name VARCHAR(255),
 	summary VARCHAR(255),
 	PRIMARY KEY(id)
