@@ -12,7 +12,8 @@ Notes for Setting Up a J2EE Project
 ### Web and Application
 * [Minimum Web](WebAndApplication/MinimumWeb.md)
 * [Spring MVC](WebAndApplication/SpringMVC.md)
-* JSON Endpoint
+* JSON RESTful Endpoint
+* [Security](WebAndApplication/Security.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
