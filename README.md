@@ -20,6 +20,7 @@ Notes for Setting Up a J2EE Project
 * [Basic SQL](/Database/BasicSQL.md)
 * [Liquibase](/Database/Liquibase.md)
 * Hibernate
+* [AWS](/Database/AWS.md)
 
 ### Server Setup
 * [Tomcat 8 Ubuntu Installation](http://wolfpaulus.com/jounal/mac/tomcat8/)
