@@ -6,7 +6,7 @@
 - [Spring Security Config](http://spring.io/blog/2013/07/03/spring-security-java-config-preview-web-security/)
 
 ## Configuring Spring Security (Basic In-Memory Security)
-- Add Dependencies (Core and Configuration)
+- Add Dependencies (Web and Configuration)
 ```xml
 <dependency>
 	<groupId>org.springframework.security</groupId>
