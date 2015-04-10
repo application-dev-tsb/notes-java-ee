@@ -5,6 +5,11 @@
 mysql --host=127.0.0.1 --user=myname --password=mypass mydb
 ```
 
+## Cool Stuffs
+```sql
+SHOW CREATE TABLE my_table --shows the create script for the table in its current form
+```
+
 ## Users
 ```sql
 --two users are created (@'xx' is optional and will default to @'%')
