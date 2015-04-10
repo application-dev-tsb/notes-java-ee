@@ -72,6 +72,13 @@ ALTER TABLE books
     ADD COLUMN pub_year VARCHAR(4),
     ADD COLUMN isbn VARCHAR(20)
 ;
+
+-- add unique constraint
+ALTER TABLE tpc_users
+	ADD CONSTRAINT uc_tpc_user_display_name UNIQUE (display_name)
+;
+-- delete unique contraint
+ALTER TABLE tpc_users DROP INDEX uc_tpc_user_display_name;
 ```
 
 ## Describe Table
