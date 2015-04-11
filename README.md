@@ -23,6 +23,7 @@ Notes for Setting Up a J2EE Project
 * [AWS](/Database/AWS.md)
 
 ### Server Setup
+* [Tomcat Notes](/ServerSetup/Tomcat.md)
 * [Tomcat 8 Ubuntu Installation](http://wolfpaulus.com/jounal/mac/tomcat8/)
 * [Environment Variables](/ServerSetup/EnvironmentVariables.md)
 * Tomcat Plugin
