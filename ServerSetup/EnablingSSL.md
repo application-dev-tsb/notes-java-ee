@@ -27,8 +27,6 @@ Address: xxxx.elasticbeanstalk.com
 Record Type: CNAME
 ```
 
-- Point 
-
 - Create a Private Key
 ```ssh
 openssl genrsa 2048 > privatekey.pem
