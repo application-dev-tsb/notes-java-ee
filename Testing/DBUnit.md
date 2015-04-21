@@ -73,3 +73,29 @@ public void findNewItems() {
 	assertEquals(2, newItems.size());
 }
 ```
+
+## Assertions
+- Basic Assertion on a single table
+```java
+import org.dbunit.Assertion;
+
+IDataSet actualDataset = databaseTester.getConnection().createDataSet();
+ITable actualTable = actualDataset.getTable("tpc_items");
+		
+IDataSet expectedDataset = new FlatXmlDataSetBuilder().build(new FileInputStream("src/test/resources/ItemRepositoryDBTestCase_saveShouldInsertForNewItem_expected.xml"));
+ITable expectedTable = expectedDataset.getTable("tpc_items");
+		
+Assertion.assertEquals(expectedTable, actualTable);
+```
+- Ignoring some columns
+```java
+Assertion.assertEqualsIgnoreCols(expectedTable, actualTable, new String[] {"id"});
+```
+
+## Extra Notes
+- use clean insert to set the test database to a known state without relying on teardown
+```java
+databaseTester.setSetUpOperation(DatabaseOperation.CLEAN_INSERT);
+```
+
+
