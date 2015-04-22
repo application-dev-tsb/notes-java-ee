@@ -99,3 +99,6 @@ INSERT INTO books (title, author_id, isbn, genre, pub_year) VALUE('The End of th
 ## Update Row
 
 ## Delete Row
+```sql
+DELETE FROM tpc_users WHERE id=10001;
+```
