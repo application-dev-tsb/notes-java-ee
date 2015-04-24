@@ -14,6 +14,7 @@ Notes for Setting Up a J2EE Project
 * [Spring MVC](WebAndApplication/SpringMVC.md)
 * JSON RESTful Endpoint
 * [Security](WebAndApplication/Security.md)
+* [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
