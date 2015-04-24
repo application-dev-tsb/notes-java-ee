@@ -1,21 +1,29 @@
-# Bean Validation
+# Bean Validation (JSR-303)
 
 ## Setup
-- Add Java Validation API to classpath
+- Add Bean Validation Specs to classpath
 ```xml
 <dependency>
-	<groupId>javax.validation</groupId>
+ 	<groupId>javax.validation</groupId>
 	<artifactId>validation-api</artifactId>
 	<version>1.1.0.Final</version>
 </dependency>
 ```
-- Add Validation Implementation Library
+- Add JSR-303 Implementation to classpath
 ```xml
 <dependency>
 	<groupId>org.hibernate</groupId>
 	<artifactId>hibernate-validator</artifactId>
 	<version>5.1.3.Final</version>
 </dependency>
+```
+
+- Enable Annotation-Driven on your web config
+```java
+@EnableWebMvc
+public class WebConfig extends WebMvcConfigurerAdapter {
+	//web config
+}
 ```
 
 - Annotate Java Bean for Validation
