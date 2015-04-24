@@ -15,6 +15,7 @@ Notes for Setting Up a J2EE Project
 * JSON RESTful Endpoint
 * [Security](WebAndApplication/Security.md)
 * [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
+* [Bean Validation](WebAndApplication/BeanValidation.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
