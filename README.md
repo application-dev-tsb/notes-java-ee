@@ -17,6 +17,10 @@ Notes for Setting Up a J2EE Project
 * [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
 * [Bean Validation](WebAndApplication/BeanValidation.md)
 
+### Enterprise Java Beans and JPA
+* Session Beans
+* Entities and JPA
+
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
 * [Basic SQL](/Database/BasicSQL.md)
