@@ -2,6 +2,7 @@
 * maintains a cache of instances within a transactional context called a persistence context
 * To apply changes back to the persistent store, the client calls the **merge()**
 ```java
+//dependency injection:
 @Stateless
 public class CustomerManager {
   @PersistenceContext(unitName="Chapter03PersistenceUnit")
@@ -12,7 +13,7 @@ public class CustomerManager {
     em.persist(cust);
 } }
 
-//alternative:
+//alternative: EntityManagerFactory
 public class CustomerService {
   public static void main(String[] args) {
     final EntityManagerFactory emf =
@@ -23,4 +24,15 @@ public class CustomerService {
     em.persist(cust);
   }
 }
+
+//alternative: JNDI lookup
+@Stateless
+@PersistenceContext(unitName="Chapter03PersistenceUnit")
+public class CustomerServiceBean {
+    @Resource
+    SessionContext ctx;
+public void performService() {
+EntityManager em = (EntityManager)ctx.lookup("Chapter03PersistenceUnit"); // ...
+} }
+
 ```
