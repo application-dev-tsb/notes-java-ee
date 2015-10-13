@@ -23,6 +23,7 @@ Notes for Setting Up a J2EE Project
 * [Primary Key](/EnterpriseJavaBeansAndJPA/PrimaryKey.md)
 * [Persistence Archive and persistence.xml](/EnterpriseJavaBeansAndJPA/PersistenceArchive.md)
 * [Entity Manager](/EnterpriseJavaBeansAndJPA/EntityManager.md)
+* [Entity Lifecycle](/EnterpriseJavaBeansAndJPA/EntityLifecycle.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
