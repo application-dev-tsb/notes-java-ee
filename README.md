@@ -19,8 +19,8 @@ Notes for Setting Up a J2EE Project
 
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
-* Entity
-* Primary Key
+* [Entity](/EnterpriseJavaBeansAndJPA/Entity.md)
+* [Primary Key](/EnterpriseJavaBeansAndJPA/PrimaryKey.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
