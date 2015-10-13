@@ -10,6 +10,16 @@ public class Customer implements Serializable {
 
 ## Autopopulated Primary Key
 ```java
+@Entity
+@SequenceGenerator(name = " CustomerSequence",
+                   sequenceName = " CUSTOMER_SEQ",
+                   initialValue = 100, allocationSize = 20)
+public class Customer implements Serializable {
+  @Id
+  @GeneratedValue(strategy = GenerationType.SEQUENCE,
+                  generator = " CustomerSequence")
+  private Integer id;
+}
 ```
 
 ## Composite Primary Key
