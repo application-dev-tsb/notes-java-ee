@@ -24,6 +24,20 @@ public class Customer implements Serializable {
 
 ## Composite Primary Key
 ```java
+//using @IdClass
+public class CustomerPK implements Serializable {
+  private Integer id;
+  private String name;
+  public void setId(Integer id) { this.id = id; }
+  public Integer getId() { return id; }
+  public void setName(String name) { this.name = name; }
+  public String getName() { return name; }
+  @Override
+  public int hashCode() { return 0; /* Implementation here */ }
+  @Override
+  public boolean equals(Object obj) { return false; /* Implementation here */ }
+}
+
 @Entity
 @IdClass(CustomerPK.class)
 public class Customer implements Serializable {
@@ -34,5 +48,34 @@ public class Customer implements Serializable {
   @Id
   private String name;
   
+}
+```
+
+```java
+//using @EmbeddedId
+@Embeddable
+public class CustomerPK implements Serializable {
+  Long id;
+  String name;
+  public void setId(Long id) { this.id = id; }
+  public Long getId() { return id; }
+  public void setName(String name) { this.name = name; }
+  public String getName() { return name; }
+  @Override
+  public int hashCode() { return 0; /* Implementation here */ }
+  @Override
+  public boolean equals(Object obj) { return false; /* Implementation here */ }
+}
+
+@Entity
+public class Customer implements Serializable {
+  @EmbeddedId
+  private CustomerPK customerId;
+  
+  public CustomerPK getCustomerId() { return customerId; }
+  public void setCustomerId(CustomerPK customerId) {
+    this.customerId = customerId;
+  }
+// ... 
 }
 ```
