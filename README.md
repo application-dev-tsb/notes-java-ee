@@ -18,7 +18,7 @@ Notes for Setting Up a J2EE Project
 * [Bean Validation](WebAndApplication/BeanValidation.md)
 
 ### Enterprise Java Beans and JPA
-* Session Beans
+* [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
 * Entities and JPA
 
 ### Database
