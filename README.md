@@ -39,5 +39,6 @@ Notes for Setting Up a J2EE Project
 * [Enabling SSL](/ServerSetup/EnablingSSL.md)
 * [Tomcat 8 Ubuntu Installation](http://wolfpaulus.com/jounal/mac/tomcat8/)
 * [Environment Variables](/ServerSetup/EnvironmentVariables.md)
+* [MySQL Setup](/ServerSetup/MySQLSetup.md)
 * Tomcat Plugin
 * Maven Profiles
