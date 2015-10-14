@@ -139,3 +139,20 @@ public class Project implements Serializable {
     protected Set<Employee> employees;
 }
 ```
+
+# Fetch Type
+## Lazy (Default)
+* merely a suggestion, implementation may load fields eagerly especially when its optimal to do so
+
+## Eager
+* fields should be pre-loaded
+
+# Cascading Operations
+```java
+@Entity
+public class Customer implements Serializable {
+    @OneToOne(cascade=CascadeType.ALL) //ALL, PERSIST, MERGE, REMOVE, REFRESH
+    protected Address address;
+}
+```
+* when an EntityManager operation like persist() or remove() is called on the Customer entity, the operation will also be called on the Address instance held in the address field and on any cascading fields of that Address instance, and so on
