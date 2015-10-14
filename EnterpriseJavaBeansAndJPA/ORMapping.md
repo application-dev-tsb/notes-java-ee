@@ -2,7 +2,7 @@
 
 ## @Table
 ```java
-//annotation definition
+//annotation definition:
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Table {
@@ -24,7 +24,7 @@ public class Address implements Serializable {
 
 ## @Column
 ```java
-//annotation definition
+//annotation definition:
 @Target({ElementType.METHOD, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Column {
@@ -45,6 +45,41 @@ public class Address implements Serializable {
 
     @Column(name="ID") 
     String identifier;
+    
+}
+```
+
+## @OneToOne
+```java
+//annotation definition:
+@Target({ElementType.METHOD, ElementType.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface OneToOne {
+    Class targetEntity() default void.class;
+    CascadeType[] cascade() default {};
+    FetchType fetch() default EAGER;
+    boolean optional() default true;
+    String mappedBy() default "";
+}
+
+//usage:
+
+//owner:
+@Entity
+public class Customer implements Serializable {
+
+    @OneToOne @JoinColumn(name="MAILING_ADDRESS_REF",
+                referencedColumnName="ADDRESS_PK")
+    protected Address address;
+    
+}
+
+//referenced:
+@Entity
+public class Address implements Serializable {
+
+    @OneToOne(mappedBy="address") 
+    protected Customer customer;
     
 }
 ```
