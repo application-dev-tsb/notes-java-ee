@@ -1,4 +1,19 @@
 # Java Persistence Query Language
+* named queries are cached
+* dynamic queries may be cached by the provider in most cases
+* sometimes dynamic queries will never be cached:
+```java
+public long queryFinancialRecordsOfDept(String deptName, String companyName) { 
+    String query = "SELECT d.records " + 
+                   "FROM Department d " + 
+                   "WHERE d.name = '" + deptName +  
+                   "' AND " + 
+                   "      d.company.name = '" + companyName + "'"; 
+    return em.createQuery(query, Long.class).getSingleResult(); 
+} 
+```
+
+## Named Queries
 ```java
 //annotation definition:
 @Target({TYPE}) @Retention(RUNTIME)
@@ -42,3 +57,5 @@ public class InventoryManagerBean implements InventoryManager,
     }
 }
 ```
+
+## Dynamic Queries
