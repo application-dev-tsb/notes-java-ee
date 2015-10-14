@@ -26,6 +26,7 @@ Notes for Setting Up a J2EE Project
 * [Entity Lifecycle](/EnterpriseJavaBeansAndJPA/EntityLifecycle.md)
 * [O/R Mapping](/EnterpriseJavaBeansAndJPA/ORMapping.md)
 * [Java Persistence Query Language (JPQL)](/EnterpriseJavaBeansAndJPA/JPQL.md)
+* [Entity Hierarchy](/EnterpriseJavaBeansAndJPA/EntityHierarchy.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
