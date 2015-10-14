@@ -87,4 +87,25 @@ public class Address implements Serializable {
 ## @OneToMany and @ManyToOne
 ```java
 //annotation definition:
+//@OneToMany:
+@Target(value = {ElementType.METHOD, ElementType.FIELD})
+@Retention(value = RetentionPolicy.RUNTIME)
+public @interface OneToMany {
+  public Class targetEntity() default void.class;
+  public CascadeType[] cascade() default {};
+  public FetchType fetch() default FetchType.LAZY;
+  public String mappedBy() default "";
+  public boolean orphanRemoval() default false;
+}
+//@ManyToOne:
+@Target(value = {ElementType.METHOD, ElementType.FIELD})
+@Retention(value = RetentionPolicy.RUNTIME)
+public @interface ManyToOne {
+  public Class targetEntity() default void.class;
+  public CascadeType[] cascade() default {};
+  public FetchType fetch() default FetchType.EAGER;
+  public boolean optional() default true;
+}
+
+
 ```
