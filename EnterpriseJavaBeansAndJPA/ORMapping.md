@@ -112,3 +112,30 @@ public class OrderItems implements Serializable {
     protected Orders orders;
 }
 ```
+
+## @ManyToMany
+```java
+//annotation definition:
+@Target(value = {ElementType.METHOD, ElementType.FIELD})
+@Retention(value = RetentionPolicy.RUNTIME)
+public @interface ManyToMany {
+  public Class targetEntity() default void.class;
+  public CascadeType[] cascade() default {};
+  public FetchType fetch() default FetchType.LAZY;
+  public String mappedBy() default "";
+}
+
+//usage:
+@Entity
+public class Employee implements Serializable {
+@ManyToMany(mappedBy="employees", cascade=CascadeType.PERSIST) @JoinTable(name="EMP_PROJ",
+               joinColumns={@JoinColumn(name="EMP_ID", referencedColumnName="ID")},
+               inverseJoinColumns={@JoinColumn(name="PROJ_ID", referencedColumnName="ID")})
+    protected Collection<Project> projects;
+}
+@Entity
+public class Project implements Serializable {
+    @ManyToMany(mappedBy="projects") 
+    protected Set<Employee> employees;
+}
+```
