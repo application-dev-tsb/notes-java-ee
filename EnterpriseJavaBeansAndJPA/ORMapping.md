@@ -42,10 +42,8 @@ public @interface Column {
 
 //usage:
 public class Address implements Serializable {
-
     @Column(name="ID") 
     String identifier;
-    
 }
 ```
 
@@ -63,21 +61,15 @@ public @interface OneToOne {
 }
 
 //usage:
-
-//owner:
 @Entity
 public class Customer implements Serializable {
-
     @OneToOne @JoinColumn(name="MAILING_ADDRESS_REF",
                 referencedColumnName="ADDRESS_PK")
     protected Address address;
     
 }
-
-//referenced:
 @Entity
 public class Address implements Serializable {
-
     @OneToOne(mappedBy="address") 
     protected Customer customer;
     
@@ -107,5 +99,16 @@ public @interface ManyToOne {
   public boolean optional() default true;
 }
 
-
+//usage:
+@Entity
+public class Orders implements Serializable {
+    @OneToMany(mappedBy="orders")
+    protected Collection<OrderItems> orderItemsCollection;
+}
+@Entity
+public class OrderItems implements Serializable {
+    @ManyToOne
+    @JoinColumn(name="SELECTION_REF", referencedColumnName="SELECTION_PK") 
+    protected Orders orders;
+}
 ```
