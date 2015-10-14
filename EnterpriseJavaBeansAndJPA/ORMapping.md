@@ -83,3 +83,8 @@ public class Address implements Serializable {
     
 }
 ```
+
+## @OneToMany and @ManyToOne
+```java
+//annotation definition:
+```
