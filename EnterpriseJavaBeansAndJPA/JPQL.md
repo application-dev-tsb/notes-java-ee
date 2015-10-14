@@ -59,3 +59,13 @@ public class InventoryManagerBean implements InventoryManager,
 ```
 
 ## Dynamic Queries
+```java
+em.createQuery("select o from Customer o", Customer.class).getResultList();
+```
+
+## Bulk Update and Delete
+```java
+em.createQuery("delete from CustomerOrder o where o.status = 'FULFILLED'").executeUpdate();
+```
+* care should be taken when performing bulk update and delete operations, since they bypass the PersistenceContext and can lead to cache inconsistency
+* make sure you call **EntityManager.flush()** after performing a bulk operation
