@@ -24,6 +24,7 @@ Notes for Setting Up a J2EE Project
 * [Persistence Archive and persistence.xml](/EnterpriseJavaBeansAndJPA/PersistenceArchive.md)
 * [Entity Manager](/EnterpriseJavaBeansAndJPA/EntityManager.md)
 * [Entity Lifecycle](/EnterpriseJavaBeansAndJPA/EntityLifecycle.md)
+* [O/R Mapping](/EnterpriseJavaBeansAndJPA/ORMapping.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
