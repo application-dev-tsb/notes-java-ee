@@ -20,3 +20,11 @@ shell> cd MYSQL_BASE_DIR
 shell> sudo chown -R mysql .
 shell> sudo chgrp -R mysql .
 ```
+* setup server
+```
+./mysql/scripts/mysql_install_db
+```
+* start server
+```
+./mysql/bin/mysqld
+```
