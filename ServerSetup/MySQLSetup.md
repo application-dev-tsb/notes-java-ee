@@ -16,15 +16,15 @@ sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 ```
 * add ownership of mysql directory to the mysql user
 ```
-shell> cd MYSQL_BASE_DIR
-shell> sudo chown -R mysql .
-shell> sudo chgrp -R mysql .
+cd MYSQL_BASE_DIR
+sudo chown -R mysql .
+sudo chgrp -R mysql .
 ```
 * setup server
 ```
-./mysql/scripts/mysql_install_db
+./scripts/mysql_install_db
 ```
 * start server
 ```
-./mysql/bin/mysqld
+./bin/mysqld
 ```
