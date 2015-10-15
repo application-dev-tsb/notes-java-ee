@@ -4,6 +4,12 @@ Notes for Setting Up a J2EE Project
 
 ## Contents
 
+### Java
+* JVM
+* Just-In-Time Compiler
+* Class Loader
+* Garbage Collector
+
 ### Testing
 * [JUnit](/Testing/JUnit.md)
 * [Spring Controller](/Testing/SpringController.md)
