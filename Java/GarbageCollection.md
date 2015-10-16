@@ -31,6 +31,15 @@ Switch            | Description
 -XX:PermSize      | Sets the starting size of the Permanent Generation
 -XX:MaxPermSize   | Sets the maximum size of the Permanent Generation
 -XX:+UseSerialGC  | Enable Serial Collector
+-XX:+UseParallelGC| Enable Parallel Collector, use -XX:ParallelGCThreads=<desired number> to specify thread count
+
+**-XX:+UseParallelGC**
+* multi-threaded young generation collector
+* single-threaded old generation collector
+* single-threaded compaction
+
+**-XX:+UseParallelOldGC**
+* everything is multithreaded
 
 **Sources:**
 * [Oracle: GC1](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
