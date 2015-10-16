@@ -55,6 +55,11 @@ Switch            | Description
 ```
 
 ## The G1 (Garbage First) Garbage Collector
+* single physical heap, split into regions
+
+![GM Regions](/Images/G1Regions.png)
+* easy to resize
+* yough GCs are parallel
 
 
 **Sources:**
