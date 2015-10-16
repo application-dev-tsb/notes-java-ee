@@ -13,6 +13,11 @@
 * Tenured (Old Generation) -  survived X (threshold) minor GC are promoted here, still gets cleaned up when a major GC cleans up and compacts the space here
 * Metaspace (Permanent Generation) - classes and methods, application metadata
 
+**For Visualization:**
+* run **jvisualvm**
+* install the Visual GC plugin
+
+![Visual VM](/Images/VisualVM.png)
 
 **Sources:**
 * [Oracle: GC1](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
