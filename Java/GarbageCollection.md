@@ -1,6 +1,6 @@
 # Garbage Collection
 
-## Automatic Garbage Collection
+## Garbage Collection Steps
 * Marking
 * Deletion
 * Compacting (Optional)
@@ -18,6 +18,19 @@
 * install the Visual GC plugin
 
 ![Visual VM](/Images/VisualVM.png)
+
+## Command Line Switches
+```
+java -Xmx12m -Xms3m -Xmn1m -XX:PermSize=20m -XX:MaxPermSize=20m -XX:+UseSerialGC -jar Java2demo.jar
+```
+Switch            | Description
+----------------- | ------------
+-Xms              | Sets the initial heap size for when the JVM starts
+-Xmx              | Sets the maximum heap size
+-Xmn              | Sets the size of the Young Generation
+-XX:PermSize      | Sets the starting size of the Permanent Generation
+-XX:MaxPermSize   | Sets the maximum size of the Permanent Generation
+-XX:+UseSerialGC  | Enable Serial Collector
 
 **Sources:**
 * [Oracle: GC1](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
