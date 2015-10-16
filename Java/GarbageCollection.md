@@ -55,4 +55,5 @@ Switch            | Description
 ```
 
 **Sources:**
-* [Oracle: GC1](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
+* [Oracle: Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
+* [Oracle: G1 Garbage Collector](http://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
