@@ -54,6 +54,10 @@ Switch            | Description
 -XX:ParallelCMSThreads=<n>
 ```
 
+## The G1 (Garbage First) Garbage Collector
+
+
 **Sources:**
 * [Oracle: Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
 * [Oracle: G1 Garbage Collector](http://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
+* [Youtube/Oracle: G1 Garbage Collector Performance Tuning](https://www.youtube.com/watch?v=bhVzCIk3-Q4)
