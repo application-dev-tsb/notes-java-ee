@@ -11,7 +11,7 @@
 * Eden - new object are allocated here, minor GCs (stop-the-world event) cleans this up very frequently
 * Survivor Space (S0/S1) - survived 1 minor GC, objects are swapped around between S1 and S2
 * Tenured (Old Generation) -  survived X (threshold) minor GC are promoted here, still gets cleaned up when a major GC cleans up and compacts the space here
-* Permanent - classes and methods
+* Metaspace (Permanent Generation) - classes and methods, application metadata
 
 
 **Sources:**
