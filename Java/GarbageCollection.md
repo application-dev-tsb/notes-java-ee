@@ -41,5 +41,18 @@ Switch            | Description
 **-XX:+UseParallelOldGC**
 * everything is multithreaded
 
+## The Concurrent Mark Sweep (CMS) Collector
+* cleans up the old/tenured generation parallel to application threads
+* younger generation cleanup is still serial and stop-the-world
+* does not do **compacting** for obvious reasons (thread safety)
+* To enable the CMS Collector use:
+```
+-XX:+UseConcMarkSweepGC
+```
+* and to set the number of threads use:
+```
+-XX:ParallelCMSThreads=<n>
+```
+
 **Sources:**
 * [Oracle: GC1](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
