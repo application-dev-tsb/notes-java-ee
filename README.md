@@ -5,10 +5,10 @@ Notes for Setting Up a J2EE Project
 ## Contents
 
 ### Java
-* JVM
-* Just-In-Time Compiler
+* [JVM](/Java/JVM.md)
+* [Just-In-Time Compiler](/Java/JIT.md)
 * Class Loader
-* Garbage Collector
+* [Garbage Collection](/Java/GarbageCollection.md)
 
 ### Testing
 * [JUnit](/Testing/JUnit.md)
