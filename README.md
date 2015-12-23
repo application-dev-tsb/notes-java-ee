@@ -43,7 +43,7 @@ Notes for Setting Up a J2EE Project
 
 ### Server Setup
 * [Enabling SSL](/ServerSetup/EnablingSSL.md)
-* [Tomcat 8 Ubuntu Installation](http://wolfpaulus.com/jounal/mac/tomcat8/)
+* [Apache Tomcat](/ServerSetup/ApacheTomcat.md)
 * [Environment Variables](/ServerSetup/EnvironmentVariables.md)
 * [Glassfish Setup](/ServerSetup/GlassfishSetup.md)
 * [MySQL Setup](/ServerSetup/MySQLSetup.md)
