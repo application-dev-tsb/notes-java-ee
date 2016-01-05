@@ -17,6 +17,11 @@ C:\Apps\jdk1.8.0_25\bin\keytool -genkey -alias tomcatssl -keyalg RSA -keystore c
   sslProtocol="TLS" 
 	keystoreFile="C:\tomcatssl.keystore"
 	keystorePass="mypassword" />
+	
+//tomcat7
+<Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
+               maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
+               clientAuth="false" sslProtocol="TLS" keystoreFile="F:\Apps\apache-tomcat-7.0.67\tomcatssl.keystore" keystorePass="tomcat" />
 ```
 
 ## Elastic Beanstalk Server
