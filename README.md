@@ -19,6 +19,7 @@ Notes for Setting Up a J2EE Project
 * [Minimum Web](WebAndApplication/MinimumWeb.md)
 * [Spring MVC](WebAndApplication/SpringMVC.md)
 * JSON RESTful Endpoint
+* [Basic JAX-RS](WebAndApplication/BasicJAXRS.md)
 * [Security](WebAndApplication/Security.md)
 * [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
 * [Bean Validation](WebAndApplication/BeanValidation.md)
