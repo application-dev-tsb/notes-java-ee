@@ -21,7 +21,7 @@ Notes for Setting Up a J2EE Project
 * Enterprise Java Beans (EJB): Basics
 * EJB: Stateless/Stateful Beans
 * EJB: Message-Driven Bean
-* Java API for RESTful WEB Services (JAX-RS): Basics
+* [Java API for RESTful WEB Services (JAX-RS): Basics](/JavaEEStandards/JAXRS-Basics.md)
 
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
@@ -43,7 +43,6 @@ Notes for Setting Up a J2EE Project
 * [Minimum Web](WebAndApplication/MinimumWeb.md)
 * [Spring MVC](WebAndApplication/SpringMVC.md)
 * JSON RESTful Endpoint
-* [Basic JAX-RS](WebAndApplication/BasicJAXRS.md)
 * [Security](WebAndApplication/Security.md)
 * [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
 * [Bean Validation](WebAndApplication/BeanValidation.md)
