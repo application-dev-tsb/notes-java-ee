@@ -12,15 +12,16 @@ Notes for Setting Up a J2EE Project
 * Annotations: Processor [JavaDocs](https://docs.oracle.com/javase/7/docs/api/javax/annotation/processing/Processor.html)
 
 ### Java EE Standards
-* Context and Dependency Injection: Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
+* Context and Dependency Injection (CDI): Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: @Produces [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: Interceptor [DZone](https://dzone.com/articles/cdi-aop)
 * CDI: Decorator
 * CDI: Event Observer
 * CDI: Portable Extensions [JBOSS](https://docs.jboss.org/weld/reference/latest/en-US/html/extend.html)
-* Enterprise Java Beans: Basics
+* Enterprise Java Beans (EJB): Basics
 * EJB: Stateless/Stateful Beans
 * EJB: Message-Driven Bean
+* Java API for RESTful WEB Services (JAX-RS): Basics
 
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
