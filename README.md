@@ -28,7 +28,8 @@ Notes for Setting Up a J2EE Project
 * [Context and Dependency Injection: Basic Injection](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * [Context and Dependency Injection: @Produces](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * [Context and Dependency Injection: Interceptor](https://dzone.com/articles/cdi-aop)
-* [Context and Dependency Injection: Decorator](https://www.youtube.com/watch?v=MwKlASN5g2s)
+* Context and Dependency Injection: Decorator
+* Context and Dependency Injection: Event Observer
 * Context and Dependency Injection: Portable Extensions
 
 ### Enterprise Java Beans and JPA
