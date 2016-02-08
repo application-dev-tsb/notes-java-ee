@@ -25,7 +25,9 @@ Notes for Setting Up a J2EE Project
 * [Bean Validation](WebAndApplication/BeanValidation.md)
 
 ### Java EE Standards
-* [Context and Dependency Injection: AOP](https://dzone.com/articles/cdi-aop)
+* [Context and Dependency Injection: Basic Injection](https://www.youtube.com/watch?v=MwKlASN5g2s)
+* [Context and Dependency Injection: Interceptor](https://dzone.com/articles/cdi-aop)
+* [Context and Dependency Injection: Decorator](https://www.youtube.com/watch?v=MwKlASN5g2s)
 
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
