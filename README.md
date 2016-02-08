@@ -9,7 +9,29 @@ Notes for Setting Up a J2EE Project
 * [Just-In-Time Compiler](/Java/JIT.md)
 * Class Loader
 * [Garbage Collection](/Java/GarbageCollection.md)
-* [Annotations: Processor](https://docs.oracle.com/javase/7/docs/api/javax/annotation/processing/Processor.html)
+* Annotations: Processor [JavaDocs](https://docs.oracle.com/javase/7/docs/api/javax/annotation/processing/Processor.html)
+
+### Java EE Standards
+* Context and Dependency Injection: Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
+* CDI: @Produces [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
+* CDI: Interceptor [DZone](https://dzone.com/articles/cdi-aop)
+* CDI: Decorator
+* CDI: Event Observer
+* CDI: Portable Extensions [JBOSS](https://docs.jboss.org/weld/reference/latest/en-US/html/extend.html)
+* Enterprise Java Beans: Basics
+* EJB: Stateless/Stateful Beans
+* EJB: Message-Driven Bean
+
+### Enterprise Java Beans and JPA
+* [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
+* [Entity](/EnterpriseJavaBeansAndJPA/Entity.md)
+* [Primary Key](/EnterpriseJavaBeansAndJPA/PrimaryKey.md)
+* [Persistence Archive and persistence.xml](/EnterpriseJavaBeansAndJPA/PersistenceArchive.md)
+* [Entity Manager](/EnterpriseJavaBeansAndJPA/EntityManager.md)
+* [Entity Lifecycle](/EnterpriseJavaBeansAndJPA/EntityLifecycle.md)
+* [O/R Mapping](/EnterpriseJavaBeansAndJPA/ORMapping.md)
+* [Java Persistence Query Language (JPQL)](/EnterpriseJavaBeansAndJPA/JPQL.md)
+* [Entity Hierarchy](/EnterpriseJavaBeansAndJPA/EntityHierarchy.md)
 
 ### Testing
 * [JUnit](/Testing/JUnit.md)
@@ -24,25 +46,6 @@ Notes for Setting Up a J2EE Project
 * [Security](WebAndApplication/Security.md)
 * [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
 * [Bean Validation](WebAndApplication/BeanValidation.md)
-
-### Java EE Standards
-* [Context and Dependency Injection: Basic Injection](https://www.youtube.com/watch?v=MwKlASN5g2s)
-* [Context and Dependency Injection: @Produces](https://www.youtube.com/watch?v=MwKlASN5g2s)
-* [Context and Dependency Injection: Interceptor](https://dzone.com/articles/cdi-aop)
-* Context and Dependency Injection: Decorator
-* Context and Dependency Injection: Event Observer
-* Context and Dependency Injection: Portable Extensions
-
-### Enterprise Java Beans and JPA
-* [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
-* [Entity](/EnterpriseJavaBeansAndJPA/Entity.md)
-* [Primary Key](/EnterpriseJavaBeansAndJPA/PrimaryKey.md)
-* [Persistence Archive and persistence.xml](/EnterpriseJavaBeansAndJPA/PersistenceArchive.md)
-* [Entity Manager](/EnterpriseJavaBeansAndJPA/EntityManager.md)
-* [Entity Lifecycle](/EnterpriseJavaBeansAndJPA/EntityLifecycle.md)
-* [O/R Mapping](/EnterpriseJavaBeansAndJPA/ORMapping.md)
-* [Java Persistence Query Language (JPQL)](/EnterpriseJavaBeansAndJPA/JPQL.md)
-* [Entity Hierarchy](/EnterpriseJavaBeansAndJPA/EntityHierarchy.md)
 
 ### Database
 * [Minimum JDBC](/Database/MinimumJDBC.md)
