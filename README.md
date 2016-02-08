@@ -24,6 +24,9 @@ Notes for Setting Up a J2EE Project
 * [Thymeleaf Templates](WebAndApplication/ThymeleafTemplates.md)
 * [Bean Validation](WebAndApplication/BeanValidation.md)
 
+### Java EE Standards
+* [Context and Dependency Injection: AOP](https://dzone.com/articles/cdi-aop)
+
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
 * [Entity](/EnterpriseJavaBeansAndJPA/Entity.md)
