@@ -22,6 +22,7 @@ Notes for Setting Up a J2EE Project
 * EJB: Stateless/Stateful Beans
 * EJB: Message-Driven Bean
 * [Java API for RESTful WEB Services (JAX-RS): Basics](/JavaEEStandards/JAXRS-Basics.md)
+* Java Transaction API (JTA) [YouTube](https://www.youtube.com/watch?v=rChkWy2NFyQ)
 
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
