@@ -26,6 +26,7 @@ Notes for Setting Up a J2EE Project
 
 ### Java EE Standards
 * [Context and Dependency Injection: Basic Injection](https://www.youtube.com/watch?v=MwKlASN5g2s)
+* [Context and Dependency Injection: @Produces](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * [Context and Dependency Injection: Interceptor](https://dzone.com/articles/cdi-aop)
 * [Context and Dependency Injection: Decorator](https://www.youtube.com/watch?v=MwKlASN5g2s)
 
