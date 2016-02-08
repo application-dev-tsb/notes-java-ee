@@ -9,6 +9,7 @@ Notes for Setting Up a J2EE Project
 * [Just-In-Time Compiler](/Java/JIT.md)
 * Class Loader
 * [Garbage Collection](/Java/GarbageCollection.md)
+* [Annotations: Processor](https://docs.oracle.com/javase/7/docs/api/javax/annotation/processing/Processor.html)
 
 ### Testing
 * [JUnit](/Testing/JUnit.md)
