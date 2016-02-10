@@ -1,8 +1,5 @@
 # NotesJ2EE
-Notes for Setting Up a J2EE Project
-
-
-## Contents
+Notes for Java Technologies
 
 ### Java
 * [JVM](/Java/JVM.md)
@@ -10,6 +7,11 @@ Notes for Setting Up a J2EE Project
 * Class Loader
 * [Garbage Collection](/Java/GarbageCollection.md)
 * Annotations: Processor [JavaDocs](https://docs.oracle.com/javase/7/docs/api/javax/annotation/processing/Processor.html)
+* Socket: Basics
+* Swing: Basics
+* Swing: Window
+* Swing: Button
+* Swing: Form
 
 ### Java EE Standards
 * Context and Dependency Injection (CDI): Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
