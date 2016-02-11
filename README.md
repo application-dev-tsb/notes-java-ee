@@ -1,7 +1,7 @@
 # NotesJ2EE
 Notes for Java Technologies
 
-### Java
+## Java SE
 * [JVM](/Java/JVM.md)
 * [Just-In-Time Compiler](/Java/JIT.md)
 * Class Loader
@@ -13,7 +13,7 @@ Notes for Java Technologies
 * Swing: Button
 * Swing: Form
 
-### Java EE Standards
+## Java EE
 * Context and Dependency Injection (CDI): Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: @Produces [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: Interceptor [DZone](https://dzone.com/articles/cdi-aop)
@@ -25,6 +25,23 @@ Notes for Java Technologies
 * EJB: Message-Driven Bean
 * [Java API for RESTful WEB Services (JAX-RS): Basics](/JavaEEStandards/JAXRS-Basics.md)
 * Java Transaction API (JTA) [YouTube](https://www.youtube.com/watch?v=rChkWy2NFyQ)
+* Java Persistence API (JPA): Basic Setup
+
+## Libraries
+* JUnit: Basics
+* JUnit: Parameterized Tests
+* TestNG: Basics
+* DBUnit: 
+
+## APIs
+* Hibernate: Basic JPA Setup
+* Hibernate: Caching Configuration
+
+
+
+
+# Everything Below will be moved to their proper places in my github repos----
+
 
 ### Enterprise Java Beans and JPA
 * [Session Beans](/EnterpriseJavaBeansAndJPA/SessionBeans.md)
