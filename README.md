@@ -14,6 +14,8 @@ Notes for Java Technologies
 * Swing: Form
 
 ## Java EE
+* Servlet: Setup with XML
+* Servlet: Setup with POJO
 * Context and Dependency Injection (CDI): Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: @Produces [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: Interceptor [DZone](https://dzone.com/articles/cdi-aop)
@@ -26,19 +28,26 @@ Notes for Java Technologies
 * [Java API for RESTful WEB Services (JAX-RS): Basics](/JavaEEStandards/JAXRS-Basics.md)
 * Java Transaction API (JTA) [YouTube](https://www.youtube.com/watch?v=rChkWy2NFyQ)
 * Java Persistence API (JPA): Basic Setup
+* JPA: Entity
+* JPA: Mapped Superclass
+* JPA: Inheritance
+* JPA: Query Language
 
 ## Libraries
 * JUnit: Basics
 * JUnit: Parameterized Tests
 * TestNG: Basics
-* DBUnit: 
-
-## APIs
+* DBUnit: Setup
+* Arquillian: Setup
+* Shrinkwrap
+* Mockito
+* EasyMock
+* Spring Testing
+* Spring
+* Spring MVC
 * Hibernate: Basic JPA Setup
 * Hibernate: Caching Configuration
-
-
-
+* Spring Security: Setup
 
 # Everything Below will be moved to their proper places in my github repos----
 
