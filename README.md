@@ -14,8 +14,13 @@ Notes for Java Technologies
 * Swing: Form
 
 ## Java EE
+* Java API for WebSocket: Setup
+* Java API for JSON Processing: Setup
+* Java Sevlet: Basics
 * Servlet: Setup with XML
 * Servlet: Setup with POJO
+* Expression Language (EL): Basics
+* Java Server Pages (JSP): Basics
 * Context and Dependency Injection (CDI): Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: @Produces [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: Interceptor [DZone](https://dzone.com/articles/cdi-aop)
@@ -33,6 +38,7 @@ Notes for Java Technologies
 * JPA: Inheritance
 * JPA: Query Language
 * JPA: Named Queries
+* Bean Validation: Basics
 
 ## Libraries
 * JUnit: Basics
@@ -49,6 +55,8 @@ Notes for Java Technologies
 * Hibernate: Basic JPA Setup
 * Hibernate: Caching Configuration
 * Spring Security: Setup
+* Spring Security: Web Security
+* Spring Security: Method Security
 
 # Everything Below will be moved to their proper places in my github repos----
 
