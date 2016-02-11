@@ -32,6 +32,7 @@ Notes for Java Technologies
 * JPA: Mapped Superclass
 * JPA: Inheritance
 * JPA: Query Language
+* JPA: Named Queries
 
 ## Libraries
 * JUnit: Basics
