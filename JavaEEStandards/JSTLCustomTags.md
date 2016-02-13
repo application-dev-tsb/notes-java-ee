@@ -31,6 +31,7 @@ public class GoogleAnalyticsTag extends SimpleTagSupport {
 ```
 * Reference the tag library in your JSP source using the JSP <taglib> directive. A tag library is a collection of JSP tags. Create a Tag Library Descriptor file (ex: GoogleAnalyticsTag.tld)
 ```xml
+<!-- WEB-INF/GoogleAnalyticsTag.tld -->
 <taglib>
 	<tlib-version>1.2</tlib-version>
 	<jsp-version>2.3</jsp-version>
