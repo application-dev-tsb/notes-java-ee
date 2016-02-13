@@ -51,12 +51,16 @@ public class GoogleAnalyticsTag extends SimpleTagSupport {
 
   <jsp-config>
     <taglib>
-      <taglib-uri>http://tags.episoder.net/GoogleAnalytics</taglib-uri>
+      <taglib-uri>http://www.episoder.net/taglibs/GoogleAnalytics</taglib-uri>
       <taglib-location>/WEB-INF/GoogleAnalytics.tld</taglib-location>
     </taglib>
   </jsp-config>
          
 </web-app>
+```
+* Reference the tag library in the JSP 
+```xml
+<%@ taglib uri="http://www.episoder.net/taglibs/GoogleAnalytics" prefix="ga" %>
 ```
 
 Source:
