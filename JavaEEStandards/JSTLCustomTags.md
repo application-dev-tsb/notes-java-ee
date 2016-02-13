@@ -33,19 +33,31 @@ public class GoogleAnalyticsTag extends SimpleTagSupport {
 ```xml
 <!-- WEB-INF/GoogleAnalyticsTag.tld -->
 <taglib>
-	<tlib-version>1.2</tlib-version>
-	<jsp-version>2.3</jsp-version>
-	<short-name>Google Analytics Tag Library</short-name>
+  <tlib-version>1.2</tlib-version>
+  <jsp-version>2.3</jsp-version>
+  <short-name>Google Analytics Tag Library</short-name>
 
-	<tag>
-		<name>GoogleAnalytics</name>
-		<tag-class>net.episoder.web.tag.GoogleAnalyticsTag</tag-class>
-		<body-content>empty</body-content>
-	</tag>
+  <tag>
+    <name>GoogleAnalytics</name>
+    <tag-class>net.episoder.web.tag.GoogleAnalyticsTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
 	
 </taglib>
 ```
-* Reference the TLD in the Web application deployment descriptor (web.xml)
+* **(Optional since JSP 2.0)** Reference the TLD in the Web application deployment descriptor (web.xml)
+```xml
+<web-app>
+
+  <jsp-config>
+    <taglib>
+      <taglib-uri>http://tags.episoder.net/GoogleAnalytics</taglib-uri>
+      <taglib-location>/WEB-INF/GoogleAnalytics.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+         
+</web-app>
+```
 
 Source:
 * [Oracle: Understanding and Creating Custom JSP Tags](https://docs.oracle.com/cd/E11035_01/wls100/taglib/quickstart.html)
