@@ -22,7 +22,7 @@ Notes for Java Technologies
 * Expression Language (EL): Basics
 * Java Server Pages (JSP): Basics
 * Standard Tag Library for JSP (JSTL): Basics
-* JSTL: Custom Tags
+* [JSTL: Custom Tags](/JavaEEStandards/JSTLCustomTags.md)
 * Context and Dependency Injection (CDI): Basic Injection [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: @Produces [YouTube](https://www.youtube.com/watch?v=MwKlASN5g2s)
 * CDI: Interceptor [DZone](https://dzone.com/articles/cdi-aop)
