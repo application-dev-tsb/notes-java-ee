@@ -36,6 +36,7 @@ public class GoogleAnalyticsTag extends SimpleTagSupport {
   <tlib-version>1.2</tlib-version>
   <jsp-version>2.3</jsp-version>
   <short-name>Google Analytics Tag Library</short-name>
+  <uri>http://www.episoder.net/taglibs/ga</uri>
 
   <tag>
     <name>GoogleAnalytics</name>
@@ -45,22 +46,14 @@ public class GoogleAnalyticsTag extends SimpleTagSupport {
 	
 </taglib>
 ```
-* **(Optional since JSP 2.0)** Reference the TLD in the Web application deployment descriptor (web.xml)
-```xml
-<web-app>
-
-  <jsp-config>
-    <taglib>
-      <taglib-uri>http://www.episoder.net/taglibs/GoogleAnalytics</taglib-uri>
-      <taglib-location>/WEB-INF/GoogleAnalytics.tld</taglib-location>
-    </taglib>
-  </jsp-config>
-         
-</web-app>
-```
 * Reference the tag library in the JSP 
 ```xml
-<%@ taglib uri="http://www.episoder.net/taglibs/GoogleAnalytics" prefix="ga" %>
+<%@ taglib uri="http://www.episoder.net/taglibs/ga" prefix="ga" %>
+<html>
+<body>
+  <ga:GoogleAnalytics/>
+</body>
+</html>
 ```
 
 Source:
