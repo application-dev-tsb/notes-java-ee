@@ -1,7 +1,7 @@
 # HTML5 WebSocket and Java
 * Bi-directional connection 
 * Full-duplex communication
-* Lean protocol (as compared to HTTP) <-- 2 bytes of oeverhead?
+* Lean protocol (as compared to HTTP) <-- 2 bytes of overhead?
 * Single TCP connection
 
 Sources:
