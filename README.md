@@ -14,7 +14,7 @@ Notes for Java Technologies
 * Swing: Form
 
 ## Java EE
-* Java API for WebSocket: Setup
+* [Java API for WebSocket: Basics](/JavaEEStandards/WebSocketBasics.md)
 * Java API for JSON Processing: Setup
 * Java Sevlet: Basics
 * Servlet: Setup with XML
