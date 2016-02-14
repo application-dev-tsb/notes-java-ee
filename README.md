@@ -18,6 +18,7 @@ Notes for Java Technologies
 * WebSocket: Lifecycle Callbacks
 * WebSocket: Encoders/Decoders
 * WebSocket: Subprotocols
+* WebSocket: Load Balancing and Scaling
 * Java API for JSON Processing: Setup
 * Java Sevlet: Basics
 * Servlet: Setup with XML
