@@ -19,3 +19,4 @@ public class TestEndpoint {
 Sources:
 * [YouTube: HTML5 WebSocket and Java](https://www.youtube.com/watch?v=8QBdUcFqRkU)
 * [YouTube: Arun Gupta - Nuts and Bolts of WebSocket](https://www.youtube.com/watch?v=qAFcu5OXyGs)
+* [Oracle: Building Web Applications with WebSocket, JavaScript, and HTML5](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/HomeWebsocket/WebsocketHome.html#section4)
