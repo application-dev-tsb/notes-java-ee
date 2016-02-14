@@ -15,6 +15,9 @@ Notes for Java Technologies
 
 ## Java EE
 * [Java API for WebSocket: Basics](/JavaEEStandards/WebSocketBasics.md)
+* WebSocket: Lifecycle Callbacks
+* WebSocket: Encoders/Decoders
+* WebSocket: Subprotocols
 * Java API for JSON Processing: Setup
 * Java Sevlet: Basics
 * Servlet: Setup with XML
