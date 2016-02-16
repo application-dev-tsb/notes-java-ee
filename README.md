@@ -64,6 +64,11 @@ Notes for Java Technologies
 * Spring Security: Web Security
 * Spring Security: Method Security
 
+## JEE Servers
+* Wildfly: Installation
+* Wildfly: Cluster Configuration
+* Wildfly; Load Balancer
+
 # Everything Below will be moved to their proper places in my github repos----
 
 
