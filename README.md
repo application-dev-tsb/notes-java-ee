@@ -67,7 +67,8 @@ Notes for Java Technologies
 ## JEE Servers
 * Wildfly: Installation
 * Wildfly: Cluster Configuration
-* Wildfly; Load Balancer
+* Wildfly: Load Balancer
+* Wildfly: JNDI Configuration
 
 # Everything Below will be moved to their proper places in my github repos----
 
