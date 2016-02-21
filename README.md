@@ -66,6 +66,7 @@ Notes for Java Technologies
 
 ## JEE Servers
 * Wildfly: Installation
+* Wildfly: Adding Admin User
 * Wildfly: Cluster Configuration
 * Wildfly: Load Balancer
 * Wildfly: JNDI Configuration
