@@ -55,6 +55,7 @@ Notes for Java Technologies
 * Shrinkwrap
 * Mockito
 * EasyMock
+* Cobertura: Basics
 * Spring Testing
 * Spring
 * Spring MVC
