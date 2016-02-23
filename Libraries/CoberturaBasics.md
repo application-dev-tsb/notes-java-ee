@@ -29,3 +29,6 @@
 ```cmd
 mvn cobertura:cobertura
 ```
+
+##### Resources:
+[Cobertura: Usage](http://www.mojohaus.org/cobertura-maven-plugin/usage.html)
