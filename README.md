@@ -61,11 +61,12 @@ Notes for Java Technologies
 * Spring Testing
 * Spring
 * Spring MVC
+* Spring Data: REST Integration
+* Spring Data: Spring Security Extension
 * Spring Data: JPA
 * Spring Data: Mongo
 * Spring Data: Apache Hadoop
 * Spring Data: Cassandra
-* Spring Data: REST Integration
 * Hibernate: Basic JPA Setup
 * Hibernate: Caching Configuration
 * Spring Security: Setup
