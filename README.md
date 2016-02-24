@@ -54,7 +54,8 @@ Notes for Java Technologies
 * TestNG: Basics
 * DBUnit: Setup
 * Arquillian: Setup
-* Shrinkwrap
+* Arquillian: Drone and Graphene Functional Testing
+* Shrinkwrap: Advanced Deployments
 * Mockito
 * EasyMock
 * [Cobertura: Basics](Libraries/CoberturaBasics.md)
