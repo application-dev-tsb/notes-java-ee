@@ -62,6 +62,7 @@ Notes for Java Technologies
 * Spring
 * Spring MVC
 * Spring REST: HATEOAS
+* Spring Data: Basics (Stream, Pagination)
 * Spring Data: REST Integration
 * Spring Data: Spring Security Extension
 * Spring Data: JPA
