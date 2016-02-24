@@ -44,6 +44,7 @@ Notes for Java Technologies
 * JPA: Inheritance
 * JPA: Query Language
 * JPA: Named Queries
+* JPA: Entity Graph
 * Bean Validation: Basics
 
 ## Libraries
