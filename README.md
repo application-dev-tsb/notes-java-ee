@@ -68,6 +68,7 @@ Notes for Java Technologies
 * Spring Data: Mongo
 * Spring Data: Apache Hadoop
 * Spring Data: Cassandra
+* Spring Data: KeyValue
 * Hibernate: Basic JPA Setup
 * Hibernate: Caching Configuration
 * Spring Security: Setup
