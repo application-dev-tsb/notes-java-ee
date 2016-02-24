@@ -61,6 +61,7 @@ Notes for Java Technologies
 * Spring Testing
 * Spring
 * Spring MVC
+* Spring REST: HATEOAS
 * Spring Data: REST Integration
 * Spring Data: Spring Security Extension
 * Spring Data: JPA
