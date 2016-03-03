@@ -73,7 +73,7 @@ Notes for Java Technologies
 * Spring Data: KeyValue
 * Hibernate: Basic JPA Setup
 * Hibernate: Caching Configuration
-* Morphia: Basics
+* [Morphia: Basics](Morphia/Basics.md)
 * Spring Security: Setup
 * Spring Security: Web Security
 * Spring Security: Method Security
