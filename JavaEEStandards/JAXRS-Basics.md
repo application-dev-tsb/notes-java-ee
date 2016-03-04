@@ -32,3 +32,6 @@ public class MyAPI {
 	}
 }
 ```
+
+##### Resources
+- [Jersey Docs](https://jersey.java.net/documentation/latest/jaxrs-resources.html)
