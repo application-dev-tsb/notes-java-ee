@@ -33,5 +33,38 @@ public class MyAPI {
 }
 ```
 
+#### Sub Resource
+```java
+@Path("/item")
+public class ItemResource {
+    @Context UriInfo uriInfo;
+ 
+    @Path("content")
+    public ItemContentResource getItemContentResource() {
+        return new ItemContentResource();
+    }
+ 
+    @GET
+    @Produces("application/xml")
+        public Item get() { ... }
+    }
+}
+ 
+public class ItemContentResource {
+ 
+    @GET
+    public Response get() { ... }
+ 
+    @PUT
+    @Path("{version}")
+    public void put(@PathParam("version") int version,
+                    @Context HttpHeaders headers,
+                    byte[] in) {
+        ...
+    }
+}
+
+```
+
 ##### Resources
 - [Jersey Docs](https://jersey.java.net/documentation/latest/jaxrs-resources.html)
