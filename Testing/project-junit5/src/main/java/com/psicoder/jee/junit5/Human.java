@@ -9,4 +9,8 @@ public class Human {
         log.info("Performing Command!!!");
         command.run();
     }
+
+    public String sayHello(String name) {
+        return String.format("Hello %s", name);
+    }
 }
