@@ -26,10 +26,7 @@ public class HumanTest {
     @Test
     void shouldPerformCommand() {
         AtomicBoolean atomicSwitch = new AtomicBoolean(false);
-
-        Runnable command = () -> {
-            atomicSwitch.set(true);
-        };
+        Runnable command = () -> atomicSwitch.set(true);
 
         human.obeyCommand(command);
 
